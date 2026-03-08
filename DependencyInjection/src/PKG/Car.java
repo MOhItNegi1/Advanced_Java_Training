@@ -12,8 +12,5 @@ public class Car {
         return engine;
     }
 
-    public  car(){
-
-    }
 
 }

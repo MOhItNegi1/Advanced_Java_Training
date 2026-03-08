@@ -1,0 +1,43 @@
+Project Management Dashboard
+Designed and implemented a full‑stack project management system with Flask as the backend and PostgreSQL for database management.
+
+Integrated REST APIs to handle project creation, task assignment, and user role management.
+
+Built secure authentication using JWT and role‑based access control to ensure data integrity and permission handling.
+
+Developed a JavaScript‑driven frontend with kanban boards, enabling intuitive workflow visualization and seamless task tracking.
+
+Delivered a scalable solution that demonstrates strong backend infra, API integration, and problem‑solving skills.
+
+🎨 Custom Avatar Generator (GenAI)
+Built an AI‑powered avatar generation platform using Stable Diffusion XL with LoRA fine‑tuning for customizable artistic styles (anime, realistic, cartoon, etc.).
+
+Orchestrated production‑grade backend workflows via ComfyUI’s headless API, enabling real‑time avatar creation and downloads.
+
+Integrated a React frontend for user interaction, allowing style selection, preview, and instant generation.
+
+Applied prompt engineering and parameter tuning to optimize model performance and reduce inference latency.
+
+Demonstrates hands‑on experience with GenAI, scalable API integration, and React/JavaScript frameworks.
+
+🏥 Hospital Price Prediction
+Developed ML models (Random Forest, Gradient Boosting, Linear Regression) to predict healthcare costs based on location, procedure type, and insurance details.
+
+Automated data collection using a BeautifulSoup web scraper, followed by cleaning and feature engineering to improve accuracy.
+
+Applied cross‑validation and hyperparameter tuning, achieving improved R² scores and reduced error rates.
+
+Built an interactive dashboard with Dash and Plotly to visualize pricing trends, feature importance, and cost distributions across hospitals.
+
+Demonstrates AI‑driven automation, data visualization, and domain relevance in healthcare/logistics.
+
+✨ Why These Work for the Placement Drive
+AI‑first automation: Avatar Generator + Hospital Prediction.
+
+Backend infra & APIs: Flask dashboard + ComfyUI orchestration.
+
+React/JavaScript: Avatar Generator frontend + dashboard UI.
+
+Cloud/Adaptability: Oracle AI certifications + scalable project framing.
+
+Preferred skills: GenAI, startup‑style execution, healthcare/logistics domain exposure.
