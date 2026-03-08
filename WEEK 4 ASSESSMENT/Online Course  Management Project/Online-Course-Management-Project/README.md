@@ -209,8 +209,8 @@ DELETE /api/courses/2
 ### Screenshot
 
 <p align="center">
-<img src="screenshots/Screenshot%20(144).png" width="45%">
-<img src="screenshots/Screenshot%20(144).png" width="45%">
+<img src="screenshots/img_2.png" width="45%">
+
 
 </p>
 
