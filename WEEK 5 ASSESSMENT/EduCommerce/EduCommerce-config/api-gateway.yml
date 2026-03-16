@@ -1,0 +1,45 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+
+  cloud:
+    gateway:
+      server:
+        webflux:
+          routes:
+
+            - id: student-service
+              uri: lb://student-service
+              predicates:
+                - Path=/students/**,/courses/**,/enroll/**,/auth/**
+
+            - id: attendance-service
+              uri: lb://attendance-service
+              predicates:
+                - Path=/attendance/**
+
+            - id: result-service
+              uri: lb://result-service
+              predicates:
+                - Path=/results/**
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: gateway,health,info
+
+  tracing:
+    sampling:
+      probability: 1.0
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+jwt:
+  secret: 3ce6d6db166a360c3cba9eeadf878062ccc31a83099c7a08
